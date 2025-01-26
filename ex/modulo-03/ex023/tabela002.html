@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(116, 116, 116);
+        }
+
+        thead , tfoot {
+            background-color: rgb(116, 116, 116);
+            color: white;
+        }
+        
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Habitantes dos Distritos de Portugal</caption>
+        <thead>
+            <tr>
+                <th>Distrito</th>
+                <th>Habitantes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lisboa</td>
+                <td class = "num">2 301 904</td>
+            </tr>
+            <tr>
+                <td>Porto</td>
+                <td class = "num">1 819 515</td>
+            </tr>
+            <tr>
+                <td>Setúbal</td>
+                <td class = "num">887 928</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class = "num">854 416</td>
+            </tr>
+            <tr>
+                <td>Aveiro</td>
+                <td class = "num">712 995</td>
+            </tr>
+            <tr>
+                <td>Faro</td>
+                <td class = "num">472 000</td>
+            </tr>
+            <tr>
+                <td>Leiria</td>
+                <td class = "num">467 139</td>
+            </tr>
+            <tr>
+                <td>Santarém</td>
+                <td class = "num">433 782</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class = "num">411 450</td>
+            </tr>
+            <tr>
+                <td>Viseu</td>
+                <td class = "num">	362 040</td>
+            </tr>
+            <tr>
+                <td>Madeira</td>
+                <td class = "num">253 259</td>
+            </tr>
+            <tr>
+                <td>Açores</td>
+                <td class = "num">239 942</td>
+            </tr>
+            <tr>
+                <td>Viana do Castelo</td>
+                <td class = "num">232 220</td>
+            </tr>
+            <tr>
+                <td>Vila Real</td>
+                <td class = "num">184 525</td>
+            </tr>
+            <tr>
+                <td>Castelo Branco</td>
+                <td class = "num">177 719</td>
+            </tr>
+            <tr>
+                <td>Évora</td>
+                <td class = "num">152 853</td>
+            </tr>
+            <tr>
+                <td>Beja</td>
+                <td class = "num">146 725</td>
+            </tr>
+            <tr>
+                <td>Guarda</td>
+                <td class = "num">141 261</td>
+            </tr>
+            <tr>
+                <td>Bragança</td>
+                <td class = "num">122 218</td>
+            </tr>
+            <tr>
+                <td>Portalegre</td>
+                <td class = "num">104 121</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total Habitantes</th>
+                <td class = "num"><strong>10 467 366</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ab eaque tempore! Laborum aperiam reprehenderit numquam ab cum harum vitae ullam, velit facilis exercitationem, delectus quod amet omnis esse odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni labore vitae aperiam veritatis consectetur quis iste quas quae, itaque cumque vel repellat voluptas sequi similique. Dicta sint modi est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia laudantium nemo expedita nulla distinctio facilis voluptate placeat aliquam cum. Enim mollitia eligendi maiores minima quod deleniti expedita molestias porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus temporibus corrupti sapiente impedit, rerum eum aliquid nostrum necessitatibus earum! Eos itaque repellendus harum accusamus quisquam ab culpa quas ex eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi a impedit laborum ullam eum, deserunt esse quod ea iste veniam assumenda consequatur, quidem vel minima omnis provident. Facere, similique.</p>
+</body>
+</html>
