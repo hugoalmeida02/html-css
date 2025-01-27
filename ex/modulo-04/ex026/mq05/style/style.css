@@ -7,7 +7,7 @@
 
 html,
 body {
-    background-color: #D9D6D2;
+    background-color: #A6A5A4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,9 +24,9 @@ header h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
 }
 
-i#burger{
+i#burger {
     background-color: #262626;
-    color:white;
+    color: white;
     display: block;
     text-align: center;
     padding: 10px;
@@ -64,15 +64,17 @@ menu>ul>li>a:hover {
 
 
 main {
-    background-color: #A6A5A4;
+    width: 90vw;
+    background-color: white;
     padding: 10px;
     margin: auto;
+
 }
 
 main h2 {
     padding: 10px;
     margin: 10px;
-    background-image: linear-gradient(to right, #8C8B88, #A6A5A4);
+    background-image: linear-gradient(to right, #D9D6D2, white);
     border-radius: 5px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.342);
 }
@@ -81,4 +83,31 @@ main p {
     padding: 10px;
     text-align: justify;
     line-height: 1.5em;
+}
+
+footer {
+    padding: 10px;
+    background-color: #262626;
+    color: White;
+    width: 90vw;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+footer p {
+
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a::after {
+    content: '\1F517';
 }
