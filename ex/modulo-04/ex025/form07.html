@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <P>
+            <label for="idis">Distrito: </label>
+            <select name="distrito" id="idis">
+                <option value="" selected>--Escolha--</option>
+                <optgroup label="Norte">
+                    <option value="Vilareal">Vila Real</option>
+                    <option value="Viseu">Viseu</option>
+                </optgroup>
+
+                <optgroup label="Centro">
+                    <option value="Aveiro">Aveiro</option>
+                    <option value="Coimbra">Coimbra</option>
+                </optgroup>
+                
+                <optgroup label="Sul">
+                    <option value="Beja">Beja</option>
+                    <option value="Faro">Faro</option>
+                </optgroup>
+            </select>
+        </P>
+        
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>Admistrador</option>
+                <option>Professor</option>
+                <option>Engenheiro</option>
+                <option>Trolha</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="40" rows="15" placeholder="Escreve aqui!"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
