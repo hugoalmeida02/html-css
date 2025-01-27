@@ -7,9 +7,10 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style/mediaquery.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>O meu site</h1>
         <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
@@ -50,7 +51,7 @@
         </article>
     </main>
     <footer>
-        <p>Site criado por <a href="https://github.com/hugoalmeida02" target="_blank">Hugo Almeida</a></p>
+        <p>Site criado por <a href="https://github.com/hugoalmeida02" target="_blank" id="externo">Hugo Almeida</a></p>
     </footer>
     <script>
         function clickMenu() {
@@ -60,6 +61,15 @@
                 itens.style.display = 'block'
             }
         }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
     </script>
 </body>
 

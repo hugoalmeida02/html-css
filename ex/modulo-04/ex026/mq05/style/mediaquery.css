@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+
+    main {
+        width: 70vw;
+    }
+
+    footer {
+        width: 70vw;
+    }
+
+    i#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        background-color: #262626;
+        text-align: center;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+        width: 19vw;
+        background-color: #595856;
+
+
+    }
+}

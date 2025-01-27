@@ -108,6 +108,6 @@ footer a {
     color: white;
 }
 
-a::after {
+a#externo::after {
     content: '\1F517';
 }
