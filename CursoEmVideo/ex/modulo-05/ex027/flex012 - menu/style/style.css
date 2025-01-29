@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #A6A5A4;
+    overflow-x: auto;
+}
+
+header {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h1 {
+    padding: 20px;
+    flex: 0 0 300px;
+}
+
+.menu {
+    margin: 10px 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menu > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.menu > a:hover {
+    background-color: #8C8B88;
+    color: black;
+    transition: background-color .5s, color .5s;
+}
+
+main {
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.404);
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #D9D6D2, white);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+main > h3 {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+main > p {
+    padding: 10px 20px;
+    text-indent: 10px;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #262626;
+    margin: auto;
+    width: 70vw;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.extern {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 890px){
+    header {
+        flex-flow: column wrap;
+    }
+
+    header > h1 {
+        flex: 0 0 50px;
+        font-size: 3em;
+    }
+
+    .menu {
+        flex-flow: column wrap;
+    }
+
+    .menu > a {
+        width: 90vw;
+    }
+
+    main {
+        width: 90vw;
+    }
+
+    footer {
+        width: 90vw;
+    }
+}
