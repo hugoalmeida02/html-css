@@ -12,11 +12,6 @@ body{
     flex-direction: column;
 }
 
-h1{
-    font-size: 3em;
-    margin-top: 50px;
-}
-
 div#calculator {
     display: grid;
     background-color: black;
