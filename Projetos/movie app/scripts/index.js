@@ -19,7 +19,7 @@ function returnMovies(url) {
       data.results.forEach((element) => {
         HTML += `<div class="movie">
         <img class="movieImg" src="${IMG_PATH + element.poster_path}" />
-        <p class="movieTitle">${element.title}</p>
+        <p class="movieTitle">${element.title} <br> <a class="reviews" href="movie.html?id=${element.id}&title=${element.title}" target="_self">Reviews 🔍</a></p>
       </div>`;
       });
       main.innerHTML = HTML;
